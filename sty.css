@@ -214,22 +214,23 @@
 
 
 .home-btn2 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 5% 21.5%;
     color: #EDDDDD;
     border-radius: 20px;
 }
 .home-btn2:hover {
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 .home-btn2-2 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 19.5%;
     color: #EDDDDD;
+    border-radius: 20px;
 }
 .home-btn2-2:hover {
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
@@ -257,18 +258,21 @@
     text-align: center;
 }
 .home-btn3 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 18%;
+    border-radius: 20px;
+    color: #EDDDDD;
 }
 .home-btn3:hover {
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }   
 .home-btn3-3 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 9.6%;
-    
+    border-radius: 20px;
+    color: #EDDDDD;
 }
 .text-h1-3-3 {
     font-size: 3rem;
@@ -280,13 +284,15 @@
 
 .home-btn3-3:hover{
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
 .home-btn3-3-3 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 17.2%;
+    border-radius: 20px;
+    color: #EDDDDD;
 }
 .text-h1-3-3-3 {
     font-size: 3rem;
@@ -299,7 +305,7 @@
 
 .home-btn3-3-3:hover{
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
@@ -317,17 +323,20 @@
 
 
 .home-btn4 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 13%;
+    border-radius: 20px;
+    
 }
 .home-btn4:hover {
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 .home-btn4-4 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 10.5%;
+    border-radius: 20px;
 }
 .text-h1-4-4 {
     font-size: 3rem;
@@ -342,7 +351,7 @@
 
 .home-btn4-4:hover{
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
@@ -359,15 +368,15 @@
 
 
 .home-btn5 .p1{
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 80px;
-   
+    border-radius: 20px;
 }
 
 
 .home-btn5 div:hover {
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
@@ -381,18 +390,19 @@
     text-align: center;
 }
 .home-btn6 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 18%;
+    border-radius: 20px;
 }
 .home-btn6:hover {
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 .home-btn6-6 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 13.5%;
-    
+    border-radius: 20px;
 }
 .text-h1-6-6 {
     font-size: 3rem;
@@ -405,13 +415,14 @@
 
 .home-btn6-6:hover{
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
 .home-btn6-6-6 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 3% 18%;
+    border-radius: 20px;
 }
 .text-h1-6-6-6 {
     font-size: 3rem;
@@ -424,7 +435,7 @@
 
 .home-btn6-6-6:hover{
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
@@ -443,8 +454,9 @@
     cursor: pointer ;
 }
 .home-btn7 {
-    background-color: #3F2A04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 5% 15%;
+    border-radius: 20px;
 }
 
 
@@ -495,7 +507,7 @@
     padding: 1rem 3rem;
     font-size: 1.5rem;
     cursor: pointer;
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: inline-block;
 }
 .btn:hover {
@@ -513,8 +525,8 @@
 }
 .menu .box-container .box {
     text-align: center;
-    border: 5px solid rgba(255, 255, 255, 0.3);
-    padding:5rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding:3rem;
     cursor: pointer;
     background-color: #141414   ;
 
@@ -525,4 +537,8 @@
     background-color: #080808;
     cursor: default;
     transition:all 0.8s;
+}
+.menu .box-container .box img {
+width: 400px;
+height: 350px;
 }
