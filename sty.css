@@ -1,26 +1,27 @@
-* {
+*{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-}
-body {
+}body {
     background-color: #1b1919;
-}
+    
+}   
 .navigation {
     background-color: #0c0909;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    /* box-shadow: 0 0.1rem 0.5rem #ccc; */
+    /*box-shadow: 0 0.1rem 0.5rem #ccc;*/
     width: 100%;
     height: 15%;
     transition: all 0.5s;
     position: fixed;
     z-index: 999;
     border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  
 }
 .navigation .logo {
     color: white;
@@ -28,11 +29,13 @@ body {
     font-weight: 600;
     display: flex;
     flex-direction: column;
+    
+    
 }
 .navigation .logo .logo2 {
     text-align: center;
 }
-.logo span {
+.logo span{
     color: white;
 }
 .logo:hover {
@@ -44,9 +47,9 @@ body {
     gap: 3rem;
 }
 
-.navigation ul li a {
+.navigation ul li a  {
     color: rgba(255, 255, 255, 1);
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     transition: all 0.5s;
     position: static;
@@ -54,16 +57,20 @@ body {
 .navigation ul li:hover a {
     font-size: 30px;
     color: rgba(255, 255, 255, 0.5);
+   
+    
 }
 
-.dropdown-menu {
+.dropdown-menu{
     position: absolute;
     display: none;
+    
 }
-.dropdown-menu a {
+.dropdown-menu a{
     display: block;
+    
 }
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu{
     display: block;
 }
 .dropdown:hover .dropdown-menu span {
@@ -75,217 +82,233 @@ body {
     padding: 10px;
     background-color: white;
     color: black;
+    
 }
 .dropdown:hover .dropdown-menu a:hover {
     background-color: gray;
     color: white;
 }
 
-.mobile-menu-icon {
+.mobile-menu-icon{
     display: none;
 }
 .mobile-menu {
     display: none;
 }
-.mobile-menu-icon button {
+.mobile-menu-icon button{
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
+
+
 .inicio {
-    display: flex;
-}
-.inicio::after {
-    content: "";
-    position: absolute;
-    height: 110%;
-    width: 62%;
-    background: linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 0.85),
-        rgba(0, 0, 0, 0.7) 40%,
-        transparent 65%
-    );
-}
-.inicio .imagem-fundo {
-    width: 1800px;
-    height: 900px;
-    object-fit: cover;
-}
-.inicio .frases {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    padding: 100px 200px;
-    z-index: 1;
-    color: white;
-}
-.texto1 {
-    padding: 40px 20px;
-    width: 400px;
-    height: 260px;
-    font-size: 40px;
-}
-.texto2 {
-    width: 300px;
-    height: 300px;
-    font-size: 40px;
-}
+        display:flex;
+       
+   }
+   .inicio::after {
+       content: '';
+       position: absolute;
+       height: 110% ;
+       width: 62%;
+       background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 40%, transparent 65%);
+       
+   }
+   .inicio .imagem-fundo{
+      width: 1800px;
+       height: 900px;
+       object-fit: cover;
+    
+   }
+   .inicio .frases{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       position: absolute;
+       padding: 100px 200px;
+       z-index: 1;
+       color: white;
+   }
+   .texto1{
+        padding: 40px 20px;
+       width: 400px;
+       height: 260px;
+       font-size: 40px;
+       
+   }
+   .texto2{
+       width: 300px;
+       height: 300px;
+       font-size: 40px;
+   }
+   
+   .sobre .conversando{
+       object-fit: cover;
+       height: 350px;
+       margin: 300px 820px ; 
+   }
+   .sobre {
+       display: flex;
+       position: relative;
+       background-color: rgb(235, 223, 223);
+       color: black;
+   }
+   .sobre .frases2{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       position: absolute;
+       
+       color: black;
+       padding: 80px;
+   }
+   .texto4 {
+       width: 500px;
+       height: 350px;
+       font-size: 30px;
+   }
+   
+   .texto6{
+       width: 400px;
+       height: 400px;
+       font-size: 30px;
+   }
+   .titusobre{
+       width: 400px;
+       height: 100px;
+       font-size: 40px;
+   }
+   .falando {
+       display: flex;
+       position: relative;
+       background-color: rgb(75, 21, 21);
+       width: 100%;
+       height: 100%;
+   }
+   .falando .container{
+      
+       object-fit: cover;
+       margin: 100px 50px;
+       position: relative;
+       
+   }
+   .frases3 .texto7 {
+       width: 550px;
+       height: 700px;
+       font-size: 40px;
+       position:relative;
+       margin: 100px 80px;
+       color: white;
+   }
 
-.sobre .conversando {
-    object-fit: cover;
-    height: 350px;
-    margin: 300px 820px;
-}
-.sobre {
-    display: flex;
-    position: relative;
-    background-color: rgb(235, 223, 223);
-    color: black;
-}
-.sobre .frases2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: absolute;
-
-    color: black;
-    padding: 80px;
-}
-.texto4 {
-    width: 500px;
-    height: 350px;
-    font-size: 30px;
-}
-
-.texto6 {
-    width: 400px;
-    height: 400px;
-    font-size: 30px;
-}
-.titusobre {
-    width: 400px;
-    height: 100px;
-    font-size: 40px;
-}
-.falando {
-    display: flex;
-    position: relative;
-    background-color: rgb(75, 21, 21);
-    width: 100%;
-    height: 100%;
-}
-.falando .container {
-    object-fit: cover;
-    margin: 100px 50px;
-    position: relative;
-}
-.frases3 .texto7 {
-    width: 550px;
-    height: 700px;
-    font-size: 40px;
-    position: relative;
-    margin: 100px 80px;
-    color: white;
-}
 
 .text-h1-2 {
     font-size: 3rem;
-    color: #eddddd;
+    color: #EDDDDD;
     align-items: center;
     padding: 15% 10%;
     font-weight: 20;
     text-align: center;
 }
 
+
 .home-btn2 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 5% 21.5%;
-    color: #eddddd;
+    color: #EDDDDD;
     border-radius: 20px;
 }
 .home-btn2:hover {
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 .home-btn2-2 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 19.5%;
-    color: #eddddd;
+    color: #EDDDDD;
+    border-radius: 20px;
 }
 .home-btn2-2:hover {
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
 .text-h1-2-2 {
     font-size: 3rem;
-    color: #eddddd;
+    color: #EDDDDD;
     align-items: center;
     padding: 1%;
     font-weight: 20;
     text-align: center;
 }
 
-.home-btn2-2:hover {
+.home-btn2-2:hover{
     cursor: pointer;
 }
 
+
+
 .text-h1-3 {
     font-size: 3rem;
-    color: #eddddd;
+    color: #EDDDDD;
     align-items: center;
     padding: 13%;
     font-weight: 20;
     text-align: center;
 }
 .home-btn3 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 18%;
+    border-radius: 20px;
+    color: #EDDDDD;
 }
 .home-btn3:hover {
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
-}
+}   
 .home-btn3-3 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 9.6%;
+    border-radius: 20px;
+    color: #EDDDDD;
 }
 .text-h1-3-3 {
     font-size: 3rem;
-    color: #eddddd;
+    color: #EDDDDD;
     align-items: center;
     font-weight: 20;
     text-align: center;
 }
 
-.home-btn3-3:hover {
+.home-btn3-3:hover{
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
 .home-btn3-3-3 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 17.2%;
+    border-radius: 20px;
+    color: #EDDDDD;
 }
 .text-h1-3-3-3 {
     font-size: 3rem;
-    color: #eddddd;
+    color: #EDDDDD;
     align-items: center;
     padding: 13%;
     font-weight: 20;
     text-align: center;
 }
 
-.home-btn3-3-3:hover {
+.home-btn3-3-3:hover{
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
+
 
 .text-h1-4 {
     font-size: 3rem;
@@ -295,21 +318,25 @@ body {
     text-align: center;
 }
 .text-h1-4 a {
-    color: #eddddd;
+    color: #EDDDDD;
 }
 
+
 .home-btn4 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 13%;
+    border-radius: 20px;
+    
 }
 .home-btn4:hover {
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 .home-btn4-4 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 10.5%;
+    border-radius: 20px;
 }
 .text-h1-4-4 {
     font-size: 3rem;
@@ -319,93 +346,104 @@ body {
     text-align: center;
 }
 .text-h1-4-4 a {
-    color: #eddddd;
+    color: #EDDDDD;
 }
 
-.home-btn4-4:hover {
+.home-btn4-4:hover{
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
+
+
 .text-h1-5 {
     font-size: 3rem;
-    color: #eddddd;
+    color: #EDDDDD;
     align-items: center;
     padding: 20%;
     font-weight: 20;
     text-align: center;
 }
 
-.home-btn5 .p1 {
-    background-color: #3f2a04;
+
+.home-btn5 .p1{
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 80px;
+    border-radius: 20px;
 }
+
 
 .home-btn5 div:hover {
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
+
 .text-h1-6 {
     font-size: 3rem;
-    color: #eddddd;
+    color: #EDDDDD;
     align-items: center;
     padding: 13%;
     font-weight: 20;
     text-align: center;
 }
 .home-btn6 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 18%;
+    border-radius: 20px;
 }
 .home-btn6:hover {
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 .home-btn6-6 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 4% 13.5%;
+    border-radius: 20px;
 }
 .text-h1-6-6 {
     font-size: 3rem;
-    color: #eddddd;
+    color: #EDDDDD;
     align-items: center;
 
     font-weight: 20;
     text-align: center;
 }
 
-.home-btn6-6:hover {
+.home-btn6-6:hover{
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
 .home-btn6-6-6 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 3% 18%;
+    border-radius: 20px;
 }
 .text-h1-6-6-6 {
     font-size: 3rem;
-    color: #eddddd;
+    color: #EDDDDD;
     align-items: center;
     padding: 13%;
     font-weight: 20;
     text-align: center;
 }
 
-.home-btn6-6-6:hover {
+.home-btn6-6-6:hover{
     cursor: pointer;
-    background-color: #553705;
+    background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 
+
+
 .text-h1-7 {
     font-size: 3rem;
-    color: #eddddd;
+    color: #EDDDDD;
     align-items: center;
     padding: 23% 10%;
     font-weight: 20;
@@ -413,79 +451,54 @@ body {
 }
 
 .text-h1-7:hover {
-    cursor: pointer;
+    cursor: pointer ;
 }
 .home-btn7 {
-    background-color: #3f2a04;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 5% 15%;
+    border-radius: 20px;
 }
 
-@media (max-width: 800px) {
-    .dropdown-menu {
-        padding: 0 40% 0 40%;
-        /* left: 40vw; */
-        /* right: 50vw; */
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    /* .open {
-        display: block;
-    } */
 
-    ul {
-        gap: 0;
-        /* display: none !important; */
-        /* height: 0 !important; */
-        transition: all 01s;
-    }
-    nav {
-        align-items: flex-start;
-    }
-    #aa:focus ~ li {
-        /* display: flex; */
-        /* margin: 0 10px; */
-        /* position: relative; */
-        /* margin: 20px; */
-    }
-
-    ul {
-        top: 120px;
-        /* flex-direction: column; */
-        /* text-align: center; */
-        margin: 0;
-        /* height: 0 !important; */
-        height: 0;
-
-        /* gap: 0 !important; */
-        display: none !important;
-        /* oi oi esse trem feio funciona mas ele tira o efeito do transition
-        pq ele nao tinha um pai quando ele tala cresendo,
-        lembra de mexe nele pra ganha o efeito de volta :3 */
-    }
-    /* #aa:focus ~ ul::before {
-        background-color: green;
-        display: flex !important;
-    } */
-    #aa:focus ~ ul {
-        /* ul { */
-        transition: all 1s;
-        display: flex !important;
+@media (max-width:800px) {
+    nav ul {
         position: absolute;
-        height: 220px;
-
         top: 120px;
         left: 0;
         right: 0;
-
         flex-direction: column;
         text-align: center;
-        /* background-color: #523704; */
-        background-color: red;
-
+        background-color:#523704;
         gap: 0;
+        
     }
+    nav ul li {
+        padding: 2px;
+    }
+    .dropdown-menu {
+        left: 30%;
+        
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    
 }
+@media (max-width:700px) {
+    .dropdown-menu {
+        left: 25%;
+        
+    }
+    
+    .mobile-menu-icon{
+        display: block;
+    }
+    .open {
+        display: block;
+    }
+    
+} 
+
 
 /* aprender */
 .btn {
@@ -494,12 +507,13 @@ body {
     padding: 1rem 3rem;
     font-size: 1.5rem;
     cursor: pointer;
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: inline-block;
+    border-radius: 10% 0 10% 0;
 }
 .btn:hover {
     font-size: 30px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color:rgba(255, 255, 255, 0.2);
     transition: all 0.8s;
 }
 .box-container {
@@ -508,17 +522,25 @@ body {
     gap: 3rem;
     text-align: center;
     margin-top: 10%;
+    
+    
 }
 .menu .box-container .box {
     text-align: center;
-    border: 5px solid rgba(255, 255, 255, 0.3);
-    padding: 5rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding:3rem;
     cursor: pointer;
-    background-color: #141414;
+    background-color: #141414   ;
+    border-radius:3%;
 }
+
 
 .menu .box-container .box:hover {
     background-color: #080808;
     cursor: default;
-    transition: all 0.8s;
+    transition:all 0.8s;
+}
+.menu .box-container .box img {
+width: 400px;
+height: 350px;
 }
